@@ -95,9 +95,9 @@ paths.forEach(function (path) {
     for (let i = 0; i < dataRegion.length; i++) {
       if (dataRegion[i].id === id) {
         document.getElementById("region-name").textContent =
-          regionalData[i].title;
+          dataRegion[i].title;
         document.getElementById("region-description").textContent =
-          regionalData[i].desc;
+          dataRegion[i].desc;
       }
     }
   });
