@@ -38,13 +38,12 @@ main {
 /* Header Section */
 header {
   width: 100%;
-  height: 6rem;
-
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 0 5px 0;
-  margin: 5px 0 10px 0;
+  padding: 5px 0;
+  margin: 5px 0 20px 0;
 }
 nav {
   display: inline-flex;
